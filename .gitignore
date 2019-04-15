@@ -13,3 +13,5 @@
 *.userprefs
 *.pidb
 *.booproj
+/plactice/.gradle/4.6/fileHashes/*.lock
+/plactice/.gradle/4.6/taskHistory/*.lock
