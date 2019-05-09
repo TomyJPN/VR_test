@@ -9,6 +9,6 @@ PhysicMaterial:
   m_Name: TableTennis
   dynamicFriction: 0.2
   staticFriction: 0.6
-  bounciness: 0.95
+  bounciness: 0.8876
   frictionCombine: 0
   bounceCombine: 0
