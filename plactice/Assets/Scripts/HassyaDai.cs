@@ -23,7 +23,7 @@ public class HassyaDai : MonoBehaviour {
   void hassya() {
     GameObject ball_ = Instantiate(ball, this.gameObject.transform.position, transform.rotation);
     rb = ball_.GetComponent<Rigidbody>();
-    x = Random.Range(13f, 16f);
+    x = Random.Range(-8f, -10f);
     z = Random.Range(-1f, 1f);
     Debug.Log(x + "," + z);
     Vector3 force = new Vector3(x * 0.01f, y * 0.01f, z * 0.01f);  // 力を設定
